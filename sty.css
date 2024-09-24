@@ -1,0 +1,50 @@
+body {
+    background-color: #2c2c2c;
+    color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.carta {
+    background-image: url('imagenes/168ecc71-4c48-4e4a-b145-95538f6a23f5.jfif'); /* Cambia esta línea con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff7518;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative; /* Añadido para el z-index */
+    color: white; /* Cambié a blanco para mejor contraste */
+}
+
+h1 {
+    color: #999393;
+    position: relative; /* Añadido para el z-index */
+    z-index: 1; /* Añadido para asegurar que el texto esté por encima de la imagen */
+}
+
+button {
+    background-color: #ff7518;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative; /* Añadido para el z-index */
+    z-index: 1; /* Añadido para asegurar que el botón esté por encima de la imagen */
+}
+
+button:hover {
+    background-color: #ff9400;
+}
+
+.oculto {
+    display: none;
+    margin-top: 20px;
+    font-style: italic;
+    position: relative; /* Añadido para el z-index */
+    z-index: 1; /* Añadido para asegurar que el texto esté por encima de la imagen */
+}
